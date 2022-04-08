@@ -1,0 +1,33 @@
+body {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+   box-shadow: 2px 2px 2px;    
+}
+.top {
+    height: 20%;
+   font-size: 90px;
+
+}
+.center {
+    height: 60%;
+    font-size: 250px;
+    text-align: center;
+}
+.buttom {
+    transform: rotate(180deg);
+    height: 20%;
+    font-size: 90px;    
+}
+.blackSymbol {
+    color: black;
+}
+.redSymbol {
+    color: red;
+}
